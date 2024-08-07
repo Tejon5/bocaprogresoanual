@@ -62,9 +62,13 @@ body{
 
 /**Responsive**/
 @media only screen and (max-width: 600px){
+    .title{
+        font-size: 16px;
+    }
+
     .progress-bar{
         width: 200px;
-        height: 1em;
+        height: 3em;
     }
 
     .progress-bar::before{
