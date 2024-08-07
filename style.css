@@ -59,3 +59,28 @@ body{
 .title{
     font-family: "Geologica", sans-serif;
 }
+
+/**Responsive**/
+@media only screen and (nax-width: 600px){
+    .progress-bar{
+        width: 200px;
+        height: 1em;
+    }
+
+    .progress-bar::before{
+        content: attr(data-label);
+        display: flex;
+        align-items: center;
+        position: absolute;
+        left: .1.5em;
+        top: .1.5em;
+        bottom: .1.5em;
+        width: calc(var(--width, 0) * 1%);
+        min-width: 0.7rem;
+        max-width: calc(60% - 1em);/*este es el calculo que determina como se va a llenar la barra de progreso*/
+        background-color: #103f79;
+        border-radius: 1em;
+        padding: 1em;
+        font-family: "Geologica", sans-serif;
+    }
+}
