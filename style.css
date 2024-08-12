@@ -49,7 +49,7 @@ body{
     bottom: .5em;
     width: calc(var(--width, 0) * 1%);
     min-width: 2rem;
-    max-width: calc(60% - 1em);/*este es el calculo que determina como se va a llenar la barra de progreso*/
+    max-width: calc(61% - 1em);/*este es el calculo que determina como se va a llenar la barra de progreso*/
     background-color: #103f79;
     border-radius: 1em;
     padding: 1em;
